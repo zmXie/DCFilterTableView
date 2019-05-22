@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04FEB1DB22952A9000814F54 /* CDFilterListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FEB1D722952A8F00814F54 /* CDFilterListView.m */; };
+		04FEB1DC22952A9000814F54 /* CDFilterTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FEB1DA22952A9000814F54 /* CDFilterTitleView.m */; };
+		04FEB1E1229534DB00814F54 /* CDFilterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FEB1DF229534DB00814F54 /* CDFilterModel.m */; };
 		A426C83422911BC600A95BCA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A426C83322911BC600A95BCA /* AppDelegate.m */; };
 		A426C83722911BC600A95BCA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A426C83622911BC600A95BCA /* ViewController.m */; };
 		A426C83A22911BC600A95BCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A426C83822911BC600A95BCA /* Main.storyboard */; };
@@ -15,6 +18,7 @@
 		A426C84222911BC800A95BCA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A426C84122911BC800A95BCA /* main.m */; };
 		A426C84C22911BC800A95BCA /* DCFilterTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A426C84B22911BC800A95BCA /* DCFilterTableViewTests.m */; };
 		A426C85722911BC800A95BCA /* DCFilterTableViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A426C85622911BC800A95BCA /* DCFilterTableViewUITests.m */; };
+		F0C4BB6F84168837512655BB /* libPods-DCFilterTableView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ED0453D228176E767ED92374 /* libPods-DCFilterTableView.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04FEB1D722952A8F00814F54 /* CDFilterListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDFilterListView.m; sourceTree = "<group>"; };
+		04FEB1D822952A8F00814F54 /* CDFilterTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDFilterTitleView.h; sourceTree = "<group>"; };
+		04FEB1D922952A9000814F54 /* CDFilterListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDFilterListView.h; sourceTree = "<group>"; };
+		04FEB1DA22952A9000814F54 /* CDFilterTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDFilterTitleView.m; sourceTree = "<group>"; };
+		04FEB1DE22952E1800814F54 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		04FEB1DF229534DB00814F54 /* CDFilterModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDFilterModel.m; sourceTree = "<group>"; };
+		04FEB1E0229534DB00814F54 /* CDFilterModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDFilterModel.h; sourceTree = "<group>"; };
+		1D5D983437C32ABE74921B3D /* Pods-DCFilterTableView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DCFilterTableView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DCFilterTableView/Pods-DCFilterTableView.debug.xcconfig"; sourceTree = "<group>"; };
+		3EB7852655A21B9DB7BF1322 /* libPods-DCFilterTableViewTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DCFilterTableViewTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44351A42DDFB2C5EC1C02B23 /* Pods-DCFilterTableView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DCFilterTableView.release.xcconfig"; path = "Pods/Target Support Files/Pods-DCFilterTableView/Pods-DCFilterTableView.release.xcconfig"; sourceTree = "<group>"; };
 		A426C82F22911BC600A95BCA /* DCFilterTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DCFilterTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A426C83222911BC600A95BCA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A426C83322911BC600A95BCA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +65,8 @@
 		A426C85222911BC800A95BCA /* DCFilterTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DCFilterTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A426C85622911BC800A95BCA /* DCFilterTableViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCFilterTableViewUITests.m; sourceTree = "<group>"; };
 		A426C85822911BC800A95BCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED0453D228176E767ED92374 /* libPods-DCFilterTableView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DCFilterTableView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEEAECAB252751743A6BD64F /* libPods-DCFilterTableViewUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DCFilterTableViewUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0C4BB6F84168837512655BB /* libPods-DCFilterTableView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +95,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8255A472F8E9A6BEA53647D3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1D5D983437C32ABE74921B3D /* Pods-DCFilterTableView.debug.xcconfig */,
+				44351A42DDFB2C5EC1C02B23 /* Pods-DCFilterTableView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A426C82622911BC600A95BCA = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +111,8 @@
 				A426C84A22911BC800A95BCA /* DCFilterTableViewTests */,
 				A426C85522911BC800A95BCA /* DCFilterTableViewUITests */,
 				A426C83022911BC600A95BCA /* Products */,
+				8255A472F8E9A6BEA53647D3 /* Pods */,
+				B287EE46BD1EA9D6BA9EC038 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,11 +133,18 @@
 				A426C83322911BC600A95BCA /* AppDelegate.m */,
 				A426C83522911BC600A95BCA /* ViewController.h */,
 				A426C83622911BC600A95BCA /* ViewController.m */,
+				04FEB1D922952A9000814F54 /* CDFilterListView.h */,
+				04FEB1D722952A8F00814F54 /* CDFilterListView.m */,
+				04FEB1D822952A8F00814F54 /* CDFilterTitleView.h */,
+				04FEB1DA22952A9000814F54 /* CDFilterTitleView.m */,
+				04FEB1E0229534DB00814F54 /* CDFilterModel.h */,
+				04FEB1DF229534DB00814F54 /* CDFilterModel.m */,
 				A426C83822911BC600A95BCA /* Main.storyboard */,
 				A426C83B22911BC800A95BCA /* Assets.xcassets */,
 				A426C83D22911BC800A95BCA /* LaunchScreen.storyboard */,
 				A426C84022911BC800A95BCA /* Info.plist */,
 				A426C84122911BC800A95BCA /* main.m */,
+				04FEB1DE22952E1800814F54 /* PrefixHeader.pch */,
 			);
 			path = DCFilterTableView;
 			sourceTree = "<group>";
@@ -132,6 +167,16 @@
 			path = DCFilterTableViewUITests;
 			sourceTree = "<group>";
 		};
+		B287EE46BD1EA9D6BA9EC038 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED0453D228176E767ED92374 /* libPods-DCFilterTableView.a */,
+				3EB7852655A21B9DB7BF1322 /* libPods-DCFilterTableViewTests.a */,
+				FEEAECAB252751743A6BD64F /* libPods-DCFilterTableViewUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +184,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A426C85B22911BC800A95BCA /* Build configuration list for PBXNativeTarget "DCFilterTableView" */;
 			buildPhases = (
+				E486D26764A0635DA1F3AAB7 /* [CP] Check Pods Manifest.lock */,
 				A426C82B22911BC600A95BCA /* Sources */,
 				A426C82C22911BC600A95BCA /* Frameworks */,
 				A426C82D22911BC600A95BCA /* Resources */,
@@ -257,13 +303,37 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		E486D26764A0635DA1F3AAB7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DCFilterTableView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A426C82B22911BC600A95BCA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A426C83722911BC600A95BCA /* ViewController.m in Sources */,
+				04FEB1DB22952A9000814F54 /* CDFilterListView.m in Sources */,
+				04FEB1E1229534DB00814F54 /* CDFilterModel.m in Sources */,
 				A426C84222911BC800A95BCA /* main.m in Sources */,
+				04FEB1DC22952A9000814F54 /* CDFilterTitleView.m in Sources */,
 				A426C83422911BC600A95BCA /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,11 +501,14 @@
 		};
 		A426C85C22911BC800A95BCA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D5D983437C32ABE74921B3D /* Pods-DCFilterTableView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 58AX2C9KK3;
+				GCC_PREFIX_HEADER = DCFilterTableView/PrefixHeader.pch;
 				INFOPLIST_FILE = DCFilterTableView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -448,11 +521,14 @@
 		};
 		A426C85D22911BC800A95BCA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44351A42DDFB2C5EC1C02B23 /* Pods-DCFilterTableView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 58AX2C9KK3;
+				GCC_PREFIX_HEADER = DCFilterTableView/PrefixHeader.pch;
 				INFOPLIST_FILE = DCFilterTableView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

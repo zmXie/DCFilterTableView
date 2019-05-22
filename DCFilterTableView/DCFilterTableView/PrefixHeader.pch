@@ -1,0 +1,16 @@
+//
+//  PrefixHeader.pch
+//  DCFilterTableView
+//
+//  Created by xzm on 2019/5/22.
+//  Copyright © 2019 谢志敏. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import <Masonry/Masonry.h>
+#define RGBA(r,g,b,a) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:a]
+#define SCREENWIDTH  [UIScreen mainScreen].bounds.size.width
+
+#endif /* PrefixHeader_pch */
